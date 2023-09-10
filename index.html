@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lector de Código QR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Lector de Código QR</h1>
+
+    <!-- Contenedor para la vista previa de la cámara -->
+    <div id="camera-preview">
+        <video id="video" playsinline autoplay></video>
+    </div>
+    <!-- Input para mostrar el valor del código QR -->
+    <input type="text" id="qr-result" placeholder="Valor del código QR">
+
+    <!-- Agregar jsQR (puedes descargarlo y alojarlo localmente) -->
+    <script src="./js/qr.js"></script>
+    <script src="./js/function.js"></script>
+</body>
+</html>
